@@ -20,6 +20,7 @@ $response['message'] = "Invalid request.";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+    $device = detectDevice();
     $email_type = $_POST["email_type"] ?? '';
 
 
@@ -28,6 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $utm_term = $_POST["utm_term"] ?? '';
     $adName = $_POST["adName"] ?? '';
     $otherParamDetails = $_POST["otherParamDetails"] ?? '';
+    $gclid = $_POST["gclid"] ?? '';
 
     $subject = '';
     $body = '';
@@ -46,6 +48,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Campaign Name : " . $utm_campaign . "
         Search Term : " . $utm_term . "
         Other Parameters Details : " . $otherParamDetails . "
+        GCLID : " . $gclid . "
+        Device : " . $device . "
     ";
 
     if ($email_type == '') {
@@ -73,6 +77,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // $treatmentStart = $_POST["treatmentStart"] ?? '';
         $subject = 'Appointment - Laparoscopy';
         $body = "
+        Device: $device <br> 
+        GCLID: $gclid <br> 
         Campaign Type: $campaign <br> 
         Ad Name: $adName <br> 
         Campaign Name: $utm_campaign <br> 
@@ -106,6 +112,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // $treatmentStart = $_POST["treatmentStart"] ?? '';
         $subject = 'Appointment - Laparoscopy';
         $body = "
+        Device: $device <br> 
+        GCLID: $gclid <br> 
         Campaign Type: $campaign <br> 
         Ad Name: $adName <br> 
         Campaign Name: $utm_campaign <br> 
@@ -139,6 +147,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // $treatmentStart = $_POST["treatmentStart"] ?? '';
         $subject = 'Appointment - Laparoscopy';
         $body = "
+        Device: $device <br> 
+        GCLID: $gclid <br> 
         Campaign Type: $campaign <br> 
         Ad Name: $adName <br> 
         Campaign Name: $utm_campaign <br> 
@@ -176,6 +186,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $scoreMsg = $_POST["scoreMsg"] ?? '';
         $subject = 'Appointment - Laparoscopy';
         $body = "
+        Device: $device <br> 
+        GCLID: $gclid <br> 
         Campaign Type: $campaign <br> 
         Ad Name: $adName <br> 
         Campaign Name: $utm_campaign <br> 
@@ -208,6 +220,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $subject = $emailSubject;
         $body = "
+        Device: $device <br> 
+        GCLID: $gclid <br> 
         Campaign Type: $campaign <br> 
         Ad Name: $adName <br> 
         Campaign Name: $utm_campaign <br> 
@@ -216,6 +230,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Mobile: $mobile <br>
         ";
         $postFieldsArray['phone'] = $mobile;
+    }
+
+      if (LIVE_ENVIRONMENT) {
+        $leadsData['mobile'] = $mobile;
+        $leadsData['table'] = SAVE_TO_DB_TABLE;
+        $leadsData['service'] = LS;
+        $leadsData['all_data'] = [
+            'Device' => $device ?? '',
+            'Campaign Type' => $campaign ?? '',
+            'Ad Name' => $adName ?? '',
+            'Campaign Name' => $utm_campaign ?? '',
+            'Search Term' => $utm_term ?? '',
+            'Other Parameters Details' => $otherParamDetails ?? '',
+            'GCLID' => $gclid ?? '',
+            'Name' => $name ?? '',
+            'Mobile' => $mobile ?? '',
+            'Email' => $email ?? '',
+            'Preferred consultation date' => $date ?? '',
+        ];
+
+        $saveToDB = SaveLeadsToDB::insert($leadsData);
+        // print_r($saveToDB);
+        // die;
+
+        if (!$saveToDB['success']) {
+            $response['success'] = false;
+            $response['message'] = $saveToDB['message'];
+            echo json_encode($response);
+            return;
+        }
     }
 
     //Create an instance; passing `true` enables exceptions
@@ -309,6 +353,104 @@ class GoHighLevel
                 return [
                     'success' => false,
                     'message' => 'Failed to add lead. HTTP Status Code: ' . $http_code,
+                    'response' => $response
+                ];
+            }
+        } catch (Exception $e) {
+            // Handle any exceptions or errors that occur
+            return [
+                'success' => false,
+                'message' => $e->getMessage()
+            ];
+        }
+    }
+}
+
+function detectDevice($userAgent = null)
+{
+    if ($userAgent === null) {
+        $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    }
+    $ua = strtolower($userAgent);
+
+    // iOS (iPhone, iPad, iPod or iPadOS masquerading as Mac)
+    if (preg_match('/iphone|ipad|ipod/', $ua) || (strpos($ua, 'macintosh') !== false && strpos($ua, 'mobile') !== false)) {
+        return "iOS";
+    }
+
+    // Android
+    if (strpos($ua, 'android') !== false) {
+        return "Android";
+    }
+
+    // Windows
+    if (strpos($ua, 'windows nt') !== false) {
+        return "Windows";
+    }
+
+    // macOS (exclude iOS iPads pretending as Mac)
+    if (strpos($ua, 'macintosh') !== false) {
+        return "macOS";
+    }
+
+    // ChromeOS
+    if (strpos($ua, 'cros') !== false) {
+        return "ChromeOS";
+    }
+
+    // Linux (excluding Android)
+    if (strpos($ua, 'linux') !== false && strpos($ua, 'android') === false) {
+        return "Linux";
+    }
+
+    return "Unknown";
+}
+
+class SaveLeadsToDB
+{
+    public static function insert($leadsData)
+    {
+        try {
+            $ch = curl_init();
+
+            // Set the options for the cURL request
+            curl_setopt($ch, CURLOPT_URL, SAVE_TO_DB_URL);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, [
+                'Content-Type: application/json',
+            ]);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($leadsData, JSON_INVALID_UTF8_IGNORE));
+
+            // Execute the cURL request
+            $response = curl_exec($ch);
+
+            // echo '<pre>';
+            // print_r($response);die();
+
+            // Check for cURL errors
+            if (curl_errno($ch)) {
+                throw new Exception('cURL Error: ' . curl_error($ch));
+            }
+
+            // Get the HTTP response code
+            $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+            // Close the cURL session
+            curl_close($ch);
+
+            $response = json_decode($response, true);
+            // Handle the response
+            if ($http_code == 200) {
+                return [
+                    'success' => true,
+                    'message' => $response['message'],
+                    'response' => $response
+                ];
+            } else {
+                return [
+                    'success' => false,
+                    'message' => $response['message'],
                     'response' => $response
                 ];
             }

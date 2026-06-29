@@ -1,8 +1,4 @@
 <?php include 'inc/header.php'; ?>
-<!-- Event snippet for Submit Lead Form Gynea LP conversion page -->
-<script>
-  gtag('event', 'conversion', {'send_to': 'AW-17014167992/VE2yCLHTj8EaELiz_rA_'});
-</script>
 
 <section class="thankyou-sec">
 	<div class="container-c">
