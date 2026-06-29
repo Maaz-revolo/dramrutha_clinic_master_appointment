@@ -24,7 +24,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 
-	<meta property="og:url" content=" " />
+	<meta property="og:url" content="https://appointment.dramruthaclinic.com/" />
 	<meta property="og:title" content=" Precise Hospital " />
 	<meta property="og:site_name" content=" Precise Hospital " />
 	<meta property="og:description" content=" Precise Hospital in Hyderabad" />
