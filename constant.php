@@ -66,7 +66,8 @@ define('SIMPLE_MODAL_POPUP_APPOINTMENT', 'simple_modal_popup_appointment');
 define('FINAL_WA_FORM', 'final_wa_form');
 define('FINAL_CALL_FORM', 'final_call_form');
 define('PROJECT_NAME', 'Precise Hospital');
-
+define('SAVE_TO_DB_URL', 'http://lpsdbapi.revolotech.com/api/save-lps-lead');
+define('SAVE_TO_DB_TABLE', 'dramrutha_clinics');
 
 define('GO_HIGH_LEVEL_API_URL', 'https://rest.gohighlevel.com/v1/contacts/');
 define('GO_HIGH_LEVEL_API_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhdGlvbl9pZCI6IkFIemxEVDVmazhTcjY0cWdJVFFrIiwidmVyc2lvbiI6MSwiaWF0IjoxNzI4OTkwMjgzMjQ2LCJzdWIiOiJZbk1EaG5OUVdtVUFVZjM3UU01MyJ9.Na00Y_nQqcvAZ2bnTrM8s0xTmgtCV1rqI8N51dQOqYg');
