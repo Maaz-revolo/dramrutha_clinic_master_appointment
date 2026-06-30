@@ -319,6 +319,154 @@
 	</div>
 </section>-->
 
+
+<section class="services padng-sec" id="service-sec">
+	<div class="container-c">
+		<div class="services-cont">
+			<div class="sub-head">
+				<h2 class=" d-table">
+					Our team is committed to providing <span class="blu-clr brk"> world-class gynecological care to our patients </span>
+				</h2>
+				<p>
+					In addition to laparoscopy procedures, we offer the latest and most advanced solutions for a wide range of women's health concerns.
+				</p>
+			</div>
+			<div class="services-all">
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-1.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3> Fibroids </h3>
+						<p>
+							Uterine fibroids are non-cancerous growths that can cause heavy periods, pelvic pain or frequent urination. We offer personalized medical and minimally invasive surgical treatments for effective relief.
+						</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-2.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3> Uterine Septum </h3>
+						<p>
+							A uterine septum is a congenital condition where a wall divides the uterus, which may increase the risk of infertility or recurrent miscarriages.
+						</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-3.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3> Abnormal Uterine Bleeding </h3>
+						<p>
+							Heavy, irregular, prolonged, or bleeding between periods should never be ignored. Our specialists identify the underlying cause and provide customized treatment to restore your menstrual health.
+						</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-9.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3> Large Ovarian Cyst </h3>
+						<p>
+							Large ovarian cysts can cause pelvic pain, bloating, discomfort or menstrual irregularities. We provide accurate diagnosis and advanced treatment options to preserve your reproductive health whenever possible.
+						</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-4.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3> Ovarian Mass </h3>
+						<p>
+							An ovarian mass may be benign or require further evaluation depending on its size and characteristics. Our experts use advanced imaging and personalized treatment plans for timely and effective care.
+						</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-5.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3> Uterine Polyps </h3>
+						<p>
+							Uterine polyps are small growths in the uterine lining that may lead to abnormal bleeding, infertility or recurrent miscarriages. Safe and minimally invasive removal helps relieve symptoms and improve uterine health.
+						</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-6.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3> PCOD Treatment </h3>
+						<p>
+							PCOD is a common hormonal condition that can cause irregular periods, acne and difficulty conceiving. Our comprehensive treatment combines lifestyle guidance, medication, and hormonal management for long-term wellness.
+						</p>
+					</div>
+				</a>
+				<a href="javascript:void(0);" class="services-single modal-link-auto">
+					<div class="f-btn">
+                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
+                         Enquire now
+                    </div>
+
+					<div class="services-single-icon">
+						<img src="assets/images/service-img-8.webp" alt="" loading="lazy">
+					</div>
+					<div class="services-single-cont">
+						<h3>  Menopause </h3>
+						<p>
+							Menopause is a natural phase that marks the end of menstrual cycles and may bring symptoms like hot flashes, mood changes, sleep disturbances, and vaginal dryness. We offer personalized care to help you manage symptoms.
+						</p>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="meet-doctors-one padng-sec" id="meet-doctor-sec">
 	<div class="container-c">
 		<div class="meet-doctors-single">
@@ -674,7 +822,7 @@
 
 
 
-<section class="package" id="package-sec">
+<!-- <section class="package" id="package-sec">
 	<div class="container-c">
 		<div class="package-cont">
 			<div class="sub-head ">
@@ -730,73 +878,8 @@
 		</div>
 
 	</div>
-</section>
-
-
-<!-- <section class="services padng-sec" id="service-sec">
-	<div class="container-c">
-		<div class="services-cont">
-			<div class="sub-head">
-				<h2 class=" d-table">
-					Our team is committed to providing <span class="blu-clr brk"> world-class gynecological care to our patients </span>
-				</h2>
-				<p>
-					In addition to laparoscopy procedures, we offer the latest and most advanced solutions for a wide range of women's health concerns.
-				</p>
-			</div>
-			<div class="services-all">
-				<a href="javascript:void(0);" class="services-single modal-link-auto">
-					<div class="f-btn">
-                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
-                         Enquire now
-                    </div>
-
-					<div class="services-single-icon">
-						<img src="assets/images/service-img-1.webp" alt="" loading="lazy">
-					</div>
-					<div class="services-single-cont">
-						<h3> Revision Laparoscopy </h3>
-						<p>
-							Revision Laparoscopy is an important solution for people suffering from knee pain and limited mobility. Today, thanks to developing technologies, knee prostheses have become durable, comfortable and aesthetic. In this way, people can return to active life again.
-						</p>
-					</div>
-				</a>
-				<a href="javascript:void(0);" class="services-single modal-link-auto">
-					<div class="f-btn">
-                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
-                         Enquire now
-                    </div>
-
-					<div class="services-single-icon">
-						<img src="assets/images/service-img-2.webp" alt="" loading="lazy">
-					</div>
-					<div class="services-single-cont">
-						<h3> Total Hip Replacement </h3>
-						<p>
-							Total Hip Replacement is a life-saving solution for people with hip pain and limitation. Thanks to developing technologies, hip prostheses provide more durable and natural mobility. In this way, people can regain their freedom of movement.
-						</p>
-					</div>
-				</a>
-				<a href="javascript:void(0);" class="services-single modal-link-auto">
-					<div class="f-btn">
-                         <img src="assets/images/btn-aro.webp" alt="" class="service-aro">
-                         Enquire now
-                    </div>
-
-					<div class="services-single-icon">
-						<img src="assets/images/service-img-3.webp" alt="" loading="lazy">
-					</div>
-					<div class="services-single-cont">
-						<h3> Knee Ligament repair/Reconstruction </h3>
-						<p>
-							Knee Ligament repair/Reconstruction is one of the most serious types of sports injuries and causes pain and limitation of movement. If left untreated, the risk of joint degeneration increases. Modern treatment options provide rapid recovery and strong rehabilitation.
-						</p>
-					</div>
-				</a>
-			</div>
-		</div>
-	</div>
 </section> -->
+
 
 <section class="testimonial padng-sec " id="testimonial-sec">
 	<div class="container-c">
