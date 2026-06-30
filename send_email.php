@@ -282,7 +282,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (LIVE_ENVIRONMENT) {
             $mail->addAddress('nitin@revolotech.com');
             $mail->addAddress('shiv@revolotech.com');
-            $mail->addAddress('precisehospitals@gmail.com');
+            $mail->addAddress('dramruthakakollu@gmail.com');
         } else {
             $mail->addAddress('maaz.revolo@gmail.com');
             $mail->addAddress('adit.revolo@gmail.com');
