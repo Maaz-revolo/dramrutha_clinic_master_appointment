@@ -296,6 +296,7 @@
 
   .services .services-all {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
