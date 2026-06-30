@@ -805,7 +805,7 @@
 				Happy Customers, <span class="blu-clr"> Great Results! </span>
 			</h2>
 			<p>
-				With a rating of 4.3 + our commitment and customer satisfaction speaks for itself.
+				With a rating of 4.5 + our commitment and customer satisfaction speaks for itself.
 			</p>
 		</div>
 
