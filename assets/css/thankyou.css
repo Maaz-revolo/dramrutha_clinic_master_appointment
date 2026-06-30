@@ -9,6 +9,11 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  min-height: 600px;
+}
+
+.thankyou-sec .thankyou-sec-cont-c .f-btn {
+    margin-top: 35px;
 }
 
 .thankyou-sec .thankyou-sec-cont-c img {
