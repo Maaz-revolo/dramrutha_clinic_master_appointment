@@ -55,7 +55,7 @@
 			</ul>
 		</div>
 		<div class="terms-cnt-c-single">
-			<h4>4. I Data Security:</h4>
+			<h4>4. Data Security:</h4>
 			<ul>
 				<li>
 					We implement industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
