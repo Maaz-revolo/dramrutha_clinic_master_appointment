@@ -66,7 +66,7 @@
 					The Best Gynecology Laparoscopy Center in Hyderabad
 				</h1>
 				<p>
-					At Precise Hospital, we combine cutting-edge technology with expert surgical care to deliver
+					At Precise Hospital, we combine cutting edge technology with expert surgical care to deliver
 					minimally invasive laparoscopy for faster healing, less pain, and superior precision.
 					<!-- At Precise Hospital, we are proud to be one of the <b>leading gynecology surgery centers in Hyderabad</b>. We offer advanced laparoscopic treatments using the latest technology for safer, quicker, and more precise care. -->
 				</p>
@@ -74,16 +74,16 @@
 					<li>
 						<img src="assets/images/bnr-usp-tick.webp" alt="">
 						<b> Laparoscopic Gynecologic Surgery : </b> Minimally invasive treatment for fibroids, ovarian
-						cysts, endometriosis and more—ensuring quicker recovery and minimal discomfort.
+						cysts, endometriosis and more ensuring quicker recovery and minimal discomfort.
 					</li>
 					<li>
 						<img src="assets/images/bnr-usp-tick.webp" alt="">
-						<b> Advanced Diagnostic Laparoscopy : </b> High-precision exams to pinpoint and address
+						<b> Advanced Diagnostic Laparoscopy : </b> High precision exams to pinpoint and address
 						reproductive health issues with accuracy.
 					</li>
 					<li>
 						<img src="assets/images/bnr-usp-tick.webp" alt="">
-						<b> Fertility-Enhancing Procedures : </b> Specialized laparoscopic techniques for infertility
+						<b> Fertility Enhancing Procedures : </b> Specialized laparoscopic techniques for infertility
 						factors like blocked fallopian tubes or uterine adhesions.
 					</li>
 					<li>
@@ -325,7 +325,7 @@
 		<div class="services-cont">
 			<div class="sub-head">
 				<h2 class=" d-table">
-					Our team is committed to providing <span class="blu-clr brk"> world-class gynecological care to our patients </span>
+					Our team is committed to providing <span class="blu-clr brk"> world class gynecological care to our patients </span>
 				</h2>
 				<p>
 					In addition to laparoscopy procedures, we offer the latest and most advanced solutions for a wide range of women's health concerns.
@@ -344,7 +344,7 @@
 					<div class="services-single-cont">
 						<h3> Fibroids </h3>
 						<p>
-							Uterine fibroids are non-cancerous growths that can cause heavy periods, pelvic pain or frequent urination. We offer personalized medical and minimally invasive surgical treatments for effective relief.
+							Uterine fibroids are non cancerous growths that can cause heavy periods, pelvic pain or frequent urination. We offer personalized medical and minimally invasive surgical treatments for effective relief.
 						</p>
 					</div>
 				</a>
@@ -440,7 +440,7 @@
 					<div class="services-single-cont">
 						<h3> PCOD Treatment </h3>
 						<p>
-							PCOD is a common hormonal condition that can cause irregular periods, acne and difficulty conceiving. Our comprehensive treatment combines lifestyle guidance, medication, and hormonal management for long-term wellness.
+							PCOD is a common hormonal condition that can cause irregular periods, acne and difficulty conceiving. Our comprehensive treatment combines lifestyle guidance, medication, and hormonal management for long term wellness.
 						</p>
 					</div>
 				</a>
@@ -495,7 +495,7 @@
 					</li>
 					<li>
 						<img src="assets/images/list-point.webp" alt="">
-						Extensive experience in managing normal and high-risk pregnancies
+						Extensive experience in managing normal and high risk pregnancies
 					</li>
 					<li>
 						<img src="assets/images/list-point.webp" alt="">
@@ -503,7 +503,7 @@
 					</li>
 					<li>
 						<img src="assets/images/list-point.webp" alt="">
-						Committed to providing compassionate, patient-centred care
+						Committed to providing compassionate, patient centred care
 					</li>
 					<li>
 						<img src="assets/images/list-point.webp" alt="">
@@ -573,7 +573,7 @@
 					</li>
 					<li>
 						<img src="assets/images/list-point.webp" alt="">
-						<b> High Success Rates : </b> Our skilled surgical team, combined with cutting-edge laparoscopic
+						<b> High Success Rates : </b> Our skilled surgical team, combined with cutting edge laparoscopic
 						technology, ensures high success rates and excellent clinical outcomes for a wide range of
 						gynecological conditions.
 					</li>
@@ -1477,7 +1477,7 @@
 		<div class="quick-contact-content">
 			<div class="sub-head ">
 				<h2> Need Help? <span> Make an Enquiry or Booking </span> </h2>
-				<p> We offer personalized, patient-specific solutions for women seeking advanced gynecological care
+				<p> We offer personalized, patient specific solutions for women seeking advanced gynecological care
 					through laparoscopy. </p>
 			</div>
 			<div class="quick-contact-btn ">
@@ -1531,7 +1531,7 @@
 					</h2>
 					<p>
 						Expert Gynec Laparoscopy surgeon with over 25+ years of experience, minimally invasive surgical
-						care for a wide range of gynecological conditions with our state-of-the-art laparoscopic
+						care for a wide range of gynecological conditions with our state of the art laparoscopic
 						procedures.
 					</p>
 				</div>
@@ -1540,7 +1540,7 @@
 						<div class="faq-accordian-single-head js-accordion-title">
 							<img src="assets/images/arrow-right-w.webp" alt="">
 							<h5>
-								Personalized, Patient-Centric Approach
+								Personalized, Patient Centric Approach
 							</h5>
 
 						</div>
@@ -1875,7 +1875,7 @@
 				</div>
 				<div class="faq-accordian-single-cont accordion-content-2">
 					<p>
-						Many laparoscopic procedures are done on a day-care basis, allowing patients to go home the same
+						Many laparoscopic procedures are done on a day care basis, allowing patients to go home the same
 						day. However, some cases may require an overnight stay for monitoring.
 					</p>
 				</div>
@@ -1913,11 +1913,11 @@
 						</a>
 					</div>
 					<div class="cnt-inf">
-						<a href="mailto:precisehospitals@gmail.com" class="cnt-inf-a">
+						<a href="mailto:dramruthakakollu@gmail.com" class="cnt-inf-a">
 							<span class="cnt-inf-icon">
 								<img src="assets/images/mail-icon-w.webp" alt="" loading="lazy">
 							</span>
-							<p class="email-cont"> precisehospitals@gmail.com</p>
+							<p class="email-cont"> dramruthakakollu@gmail.com</p>
 						</a>
 					</div>
 					<!-- <div class="cnt-inf get-in-touch-cont-address">

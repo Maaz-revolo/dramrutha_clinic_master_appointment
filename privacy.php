@@ -98,7 +98,7 @@
 			<h4>8. Contact Us:</h4>
 			<ul>
 				<li>
-					If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at <a href="mailto:precisehospitals@gmail.com">precisehospitals@gmail.com</a>.
+					If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at <a href="mailto:dramruthakakollu@gmail.com">dramruthakakollu@gmail.com</a>.
 				</li>
 
 			</ul>
